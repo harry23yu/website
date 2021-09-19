@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.harry_name {
+    text-align: center;
+    color: rgb(46, 221, 40);
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links_row {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link_header {
+    align-items: center;
+    color: rgb(119, 255, 180);
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
+    text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.link_subheader {
+    align-items: center;
+    color: rgb(133, 133, 133);
+    font-family: "Trebuchet MS";
+    font-size: 12pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upper_links {
+    text-align: right;
+    padding: 10px 20px;
+    color: rgb(0, 167, 22);
+    font-size: 16pt;
+}
+
+.upper_link {
+    color: rgb(0, 167, 22);
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 14pt;
+}
+
+.autobiography_text {
+    color:rgb(0, 167, 22);
+    font-family: "Trebuchet MS";
+    font-size: 8pt;
+    padding: 0px 100px;
+}
+
+.autobiography_title, .autobiography_sentence {
+    color: rgb(0, 0, 255);
+    font-family: "Comic Sans MS";
+    font-size: 20pt;
+    text-align: center;
+}
+
+.autobiography_overview {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.intro_part {
+    width: 500px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.reasons_to_read {
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+    font-size: 14pt;
+}
+
+.key_points {
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+    font-size: 14pt;
+}
+
+.biography_contents {
+    color: rgb(50, 32, 255);
+    font-family: "Comic Sans MS";
+    font-size: 20pt;
+    padding: 0px 0px 0px 150px;
+}
+
+#baby_toddler_years, #preschool_years, #elementary_school_years,
+#middle_school_years, #high_school_years {
+    color: rgb(0, 0, 0);
+    font-family: "Comic Sans MS";
+    font-size: 20pt;
+    padding: 0px 150px;
+}
+
+.baby_toddler_years_bio, .preschool_years_bio, .elementary_school_bio,
+.middle_school_bio, .high_school_bio {
+    color: rgb(125, 125, 125);
+    font-size: 14pt;
+    font-family: "Comic Sans MS";
+    padding: 0px 150px;
+}
+
+.bio_last_updated {
+    color: rgb(0, 0, 0);
+    font-size: 10pt;
+    font-family: "Comic Sans MS";
+    padding: 0px 150px;
+}
+
+.achievements {
+    text-align: center;
+    color: rgb(233, 25, 25);
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
+}
+
+.home {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Trebuchet MS";
+    font-size: 16pt;
+    padding: 20px 0px;
+}
+
+.info {
+    text-align: center;
+    color: rgb(119, 255, 180);
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
+}
+
+.contact {
+    text-align: center;
+    color: rgb(169, 16, 216);
+    font-family: "Trebuchet MS";
+    font-size: 20pt;
 }
