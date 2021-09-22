@@ -26,7 +26,7 @@ const Home = () => {
                 </a>
             </div>
             <div className="harry_name">
-                <h1>Harry Yu <img src={game_controller} alt="" width="65px"></img></h1>
+                <h1>Harry Yu <img src={game_controller} alt="" width="70px"></img></h1>
             </div>
             <br></br>
             <div className="links_row">
