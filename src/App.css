@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     text-decoration: none;
+    color: rgb(25, 0, 255);
 }
 
 .links {
