@@ -31,7 +31,7 @@ const Home = () => {
             <br></br>
             <div className="links_row">
                 <div className="links">
-                    <Link to="/Bio">
+                    <Link to="/bio">
                         <div className="link_header">
                             <p>About Me</p>
                         </div>

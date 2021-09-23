@@ -20,7 +20,7 @@ const Bio = () => {
                     video games.
                 </h1>
             </div>
-            <Link to="/Home">
+            <Link to="/">
                 <div className="home">Home</div>
             </Link>
         </div>
