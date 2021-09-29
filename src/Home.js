@@ -47,6 +47,15 @@ const Home = () => {
                 >
                     Play My New Unity 2D Platformer Game Right Here!
                 </a>
+            <br></br>
+                <a 
+                    className="links_row"
+                    href='https://docs.google.com/spreadsheets/d/1rX2oXqc7qrFZj5679qRLr_7UWSAXVjLQezD76SJrd8U'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                   Tournament Sign-up
+                </a>
         </div>
     )
 }
